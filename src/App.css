@@ -1,27 +1,18 @@
 .nav-contacts {
   align-items: center;
-  background-color: ;
-  display: flex;
   border-bottom: white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: .5rem;
+  padding-top: 1rem;
 }
 
 .nav-contacts h1 {
   margin-left: 3rem;
-  color: white;
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-.nav-contacts input {
-  border: transparent;
-  border-radius: .5rem;
-  background-color: #262626;
-  height: 3rem;
-  margin-left: 5rem;
-  outline: none;
-  width: 20rem;
-  color: white;
-  position: relative;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 .icon-button {
@@ -29,5 +20,31 @@
   background-color: transparent;
   cursor: pointer;
   display: flex;
-  justify-content: ;
+  padding-right: 1rem;
+}
+
+.groups-button {
+  background-color: transparent;
+  border: transparent;
+  color: #007aff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.input-search {
+  background-color: #efeff0;
+  border: transparent;
+  border-radius: .5rem;
+  color: #8a8a8e;
+  height: 2rem;
+  margin-left: .8rem;
+  outline: none;
+  position: relative;
+  width: 24rem;
+}
+
+.contacts-list {
+  border: 1px #000 ;
+  list-style: none;
 }

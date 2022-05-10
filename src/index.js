@@ -6,6 +6,8 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div style={{ alignItems: 'center', backgroundColor: '#333', display: 'flex', height: '100vh', justifyContent: 'center', width: '100vw', }}>
+      <App />
+    </div>
   </React.StrictMode>
 );
