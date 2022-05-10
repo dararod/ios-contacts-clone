@@ -20,6 +20,7 @@
   background-color: transparent;
   cursor: pointer;
   display: flex;
+  margin-left: 2.5rem;
   padding-right: 1rem;
 }
 
@@ -38,6 +39,7 @@
   border-radius: .5rem;
   color: #8a8a8e;
   height: 2rem;
+  margin-bottom: 2rem;
   margin-left: .8rem;
   outline: none;
   position: relative;
@@ -45,6 +47,10 @@
 }
 
 .contacts-list {
-  border: 1px #000 ;
+  height: 2rem;
   list-style: none;
+  border-top: 1px solid #c6c6c8;
+  padding: .5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
