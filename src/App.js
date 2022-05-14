@@ -1,5 +1,6 @@
 import './App.css';
-import Contacts from './components/Contacts';
+import Contacts from './components/ContactsList';
+import CreateContact from './components/CreateContact';
 import { Route, Routes } from 'react-router';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div style={{backgroundColor: '#fff', borderRadius: '8px', width: '414px', height: '896px', overflow: 'hidden' }}>
     <Routes>
       <Route path='/' element={<Contacts/>}/>
-      <Route path='/new-contacts' element={<NewContact/>}/>
+      <Route path='/new-contacts' element={<CreateContact/>}/>
     </Routes>
     </div>
   );
