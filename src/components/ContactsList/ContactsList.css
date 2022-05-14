@@ -38,10 +38,12 @@
     border: transparent;
     border-radius: .5rem;
     color: #000;
+    font-size: 1rem;
     height: 2.3rem;
     margin-bottom: 2rem;
     margin-left: .8rem;
     outline: none;
+    padding-left: 2rem;
     position: relative;
     width: 24rem;
   }
@@ -53,4 +55,12 @@
     padding: .5rem;
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .search {
+    border: none;
+    background-color: transparent;
+    left: 17.6rem;
+    position: absolute;
+    top: 5.2rem;
   }

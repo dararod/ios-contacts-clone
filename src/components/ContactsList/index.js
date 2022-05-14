@@ -22,6 +22,7 @@ function Contacts() {
     </nav>
     <main>
     <input className='input-search' type="Search" placeholder="Search"></input>
+    <button className='search'><FiSearch size={'1.4rem'} color={'#757575'}/></button>
       {
         contacts.map((contact) => <li className='contacts-list'>{contact.namefirst} <strong>{contact.namelast}</strong></li>
         )
