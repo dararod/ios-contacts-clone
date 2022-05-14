@@ -59,8 +59,8 @@
 
   .search {
     border: none;
+    bottom: 4rem;
     background-color: transparent;
-    left: 17.6rem;
-    position: absolute;
-    top: 5.2rem;
+    left: .7rem;
+    position: relative;
   }
