@@ -1,7 +1,8 @@
 import { Route, Routes } from 'react-router';
 
-import Contacts from './components/ContactsList';
-import CreateContact from './components/CreateContact';
+import Contacts from './views/Contacts';
+import ContactView from './views/ContactView';
+import NewContact from './views/NewContact';
 
 import './App.css';
 
@@ -10,7 +11,8 @@ export default function App() {
     <div id="app-container">
       <Routes>
         <Route path='/' element={<Contacts/>}/>
-        <Route path='/new-contacts' element={<CreateContact/>}/>
+        <Route path='/:id' element={<ContactView/>}/>
+        <Route path='/new' element={<NewContact/>}/>
       </Routes>
     </div>
   );
