@@ -7,3 +7,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#app {
+  align-items: center;
+  background-color: #333333;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
