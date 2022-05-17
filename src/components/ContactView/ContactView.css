@@ -1,0 +1,8 @@
+#contact-view-button {
+    background-color: transparent;
+    border: transparent;
+    color: #007aff;
+    cursor: pointer;
+    font-size: 1.1rem; 
+    padding-left: 1rem;
+}

@@ -2,7 +2,7 @@ import './CreateContact.css'
 import { FiPlus } from 'react-icons/fi';
 import { Link } from "react-router-dom";
 
-function CreateContact () {
+export default function CreateContact () {
     return(
         <div style={{backgroundColor: '#f2f2f7', width: '414px', height: '896px'}}>
            <nav className='create-contact-nav'>
@@ -26,4 +26,3 @@ function CreateContact () {
         </div>
     );
 }
-export default CreateContact;

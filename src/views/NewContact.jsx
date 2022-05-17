@@ -1,7 +1,8 @@
 import React from 'react';
+import CreateContact from '../components/CreateContact';
 
 export default function NewContact() {
   return (
-    <h1>NewContact</h1>
+    <CreateContact/>
   );
 }

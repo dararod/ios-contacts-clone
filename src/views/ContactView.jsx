@@ -1,7 +1,8 @@
 import React from 'react';
+import ContactsViewComponent from '../components/ContactView';
 
 export default function ContactView() {
   return (
-    <h1>ContactView</h1>
+    <ContactsViewComponent/>
   );
 }
