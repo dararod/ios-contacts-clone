@@ -1,0 +1,15 @@
+#app-container {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  height: 896px;
+  overflow: hidden;
+  width: 414px;
+}
+
+@media screen and (max-width: 480px) {
+  #app-container {
+    border-radius: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+}
