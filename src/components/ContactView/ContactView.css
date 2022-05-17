@@ -1,20 +1,21 @@
 .contact-view-nav {
-    padding-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.contact-view-nav button{
-    background-color: transparent;
-    display: flex;
-    border: transparent;
-    color: #007aff;
-    cursor: pointer;
-    font-size: 1.3rem; 
-    padding: 0;
+.contact-view-nav button {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  border: transparent;
+  color: #007aff;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 0;
 }
 
 .contact-view-nav button h4 {
-    margin: 0;
+  margin: 0;
 }

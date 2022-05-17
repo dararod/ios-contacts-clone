@@ -5,19 +5,19 @@
 }
 
 .contacts-list-item {
-  border-bottom: 1px solid #D4D4D6;
+  border-bottom: 1px solid #d4d4d6;
   margin: 0 auto;
   width: calc(100% - 2rem);
 }
 
 .contacts-list-item:first-of-type {
-  border-top: 1px solid #D4D4D6;
+  border-top: 1px solid #d4d4d6;
 }
 
 .contacts-list-item a {
   display: block;
   color: #000000;
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   text-decoration: none;
   width: 100%;
 }
