@@ -47,3 +47,11 @@
   position: relative;
   width: 24rem;
 }
+
+#contacts-nav-search-svg {
+  border: none;
+  background-color: transparent;
+  bottom: 4rem;
+  left: .6rem;
+  position: relative;
+}

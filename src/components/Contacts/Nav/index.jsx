@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiPlus } from 'react-icons/fi';
+import { FiPlus, FiSearch } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import './Nav.css';
@@ -17,6 +17,7 @@ export default function Nav() {
         </Link>
       </nav>
       <input id="contacts-nav-search" type="Search" placeholder="Search" />
+      <button id='contacts-nav-search-svg'><FiSearch color='#848488' size={'1.4rem'}/></button>
     </header>
   );
 }
