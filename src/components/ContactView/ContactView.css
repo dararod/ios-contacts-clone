@@ -16,6 +16,13 @@
   padding: 0;
 }
 
-.contact-view-nav button h4 {
-  margin: 0;
+.contact-view-nav a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
+}
+
+#contact-button-edit {
+  padding-right: 1rem;
 }

@@ -1,0 +1,19 @@
+.contact-view-button {
+    display: flex;
+    justify-content: space-between;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.contact-view-button button{
+    align-items: center;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: .7rem;
+    color: #007aff;
+    display: flex;
+    flex-direction: column;
+    height: 3.5rem;
+    justify-content: center;
+    width: 7.8rem;
+}

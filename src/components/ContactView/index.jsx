@@ -14,12 +14,11 @@ export default function ContactsViewComponent() {
       <nav className="contact-view-nav">
         <Link to={`/`}>
           <button>
-            {' '}
             <FiChevronLeft size={'2.3rem'} />
             Contacts
           </button>
         </Link>
-        <button>Edit</button>
+        <button id='contact-button-edit'>Edit</button>
       </nav>
       <ContactButton />
     </div>
