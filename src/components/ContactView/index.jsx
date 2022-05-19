@@ -20,6 +20,9 @@ export default function ContactsViewComponent() {
         </Link>
         <button id='contact-button-edit'>Edit</button>
       </nav>
+      <div>
+        <h3 id='contact-view-name'>Jhon Appleseed</h3>
+      </div>
       <ContactButton />
     </div>
   )
