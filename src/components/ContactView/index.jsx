@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { FiChevronLeft } from 'react-icons/fi'
 
 import ContactButton from './ContactButton'
+import ContactAvatar from './ContactAvatar'
+import DataField from './DataField'
 
 import './ContactView.css'
 
@@ -18,15 +20,11 @@ export default function ContactsViewComponent() {
             Contacts
           </button>
         </Link>
-        <button id='contact-button-edit'>Edit</button>
+        <button id="contact-button-edit">Edit</button>
       </nav>
-      <div className='contact-view-avatar-box'>
-        <div className='contact-view-avatar'>
-          <h2>ja</h2>
-        </div>
-        <h3 id='contact-view-name'>Jhon Appleseed</h3>
-      </div>
+      <ContactAvatar />
       <ContactButton />
+      <DataField />
     </div>
   )
 }
