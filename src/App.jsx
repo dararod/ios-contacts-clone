@@ -1,3 +1,4 @@
+import React from 'react'
 import { Route, Routes } from 'react-router'
 
 import Contacts from './views/Contacts'

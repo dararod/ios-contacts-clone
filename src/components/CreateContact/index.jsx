@@ -1,3 +1,5 @@
+import React from 'react'
+
 import './CreateContact.css'
 import { FiPlus } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
