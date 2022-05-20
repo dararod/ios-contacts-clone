@@ -1,15 +1,19 @@
 .data-field {
   background-color: #fff;
-  border-bottom: 1px solid #c6c6c8;
+  border-radius: 0.7rem;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  height: 3.5rem;
+  height: 7.7rem;
   margin: 0;
+  margin-bottom: 1rem;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   padding-left: 1rem;
   width: 24.9rem;
+}
+
+.data-field div {
+  box-sizing: border-box;
+  padding-top: 0.5rem;
 }
 
 .data-field h4 {
@@ -28,26 +32,36 @@
   width: 7.6rem;
 }
 
-.data-field-a {
-  background-color: #fff;
-  box-sizing: border-box;
+.data-field-mobile {
   display: flex;
   flex-direction: column;
-  height: 3.5rem;
+  height: 3.8rem;
+}
+
+.data-field-mobile:first-of-type {
+  border-bottom: 1px solid #e8e8e9;
+}
+
+#data-field-work {
+  background-color: #fff;
+  border-radius: 0.7rem;
+  box-sizing: border-box;
+  height: 4rem;
   margin: 0;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   padding-left: 1rem;
+  padding-top: 0.5rem;
   width: 24.9rem;
 }
 
-.data-field-a h4 {
+#data-field-work h4 {
   font-weight: 100;
   margin: 0;
   margin-bottom: 0.2rem;
 }
 
-.data-field-a button {
+#data-field-work button {
   background-color: transparent;
   border: none;
   color: #007aff;
