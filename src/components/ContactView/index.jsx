@@ -29,7 +29,7 @@ export default function ContactsViewComponent() {
         </Link>
         <button id="contact-button-edit">Edit</button>
       </nav>
-      <ContactAvatar />
+      <ContactAvatar contact={contact}/>
       <ContactButton />
       <DataField />
     </div>
