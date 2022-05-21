@@ -45,23 +45,42 @@
 }
 
 .number-input {
+  align-items: center;
   background-color: #fff;
   border-top: 1px solid #e8e8e9;
   border-bottom: 1px solid #e8e8e9;
-  height: 2.7rem;
+  box-sizing: border-box;
+  display: flex;
+  height: 3rem;
   margin-bottom: 1rem;
+  padding-left: 2rem;
 }
 
-.number-input p {
-  margin-left: 5rem;
+.number-input dd {
+  margin: 0;
 }
 
-.plus-button {
+.create-contact-text-button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.create-contact-add-phone {
   background-color: #34c759;
   border: none;
   border-radius: 1rem;
-  bottom: 3.3rem;
   cursor: pointer;
-  left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
+
+#plus-button {
   position: relative;
+  right: 1.2rem;
 }

@@ -22,17 +22,15 @@ export default function CreateContact() {
         <input placeholder="Company"></input>
       </div>
       <div className="number-input">
-        <p>add phone</p>
+        <button className='create-contact-add-phone'></button>
+      <FiPlus id='plus-button' color="#fff" size={"1.1rem"}/>
+      <button className='create-contact-text-button'>add phone</button>
       </div>
-      <button className="plus-button">
-        <FiPlus color="#fff" size={'1.5rem'} />
-      </button>
       <div className="number-input">
-        <p>add email</p>
+        <button className='create-contact-add-phone'></button>
+      <FiPlus id='plus-button' color="#fff" size={"1.1rem"}/>
+      <button className='create-contact-text-button'>add email</button>
       </div>
-      <button className="plus-button">
-        <FiPlus color="#fff" size={'1.5rem'} />
-      </button>
     </div>
   )
 }
