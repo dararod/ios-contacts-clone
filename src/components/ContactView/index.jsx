@@ -31,7 +31,7 @@ export default function ContactsViewComponent() {
       </nav>
       <ContactAvatar contact={contact}/>
       <ContactButton />
-      <DataField />
+      <DataField contact={contact}/>
     </div>
   )
 }
