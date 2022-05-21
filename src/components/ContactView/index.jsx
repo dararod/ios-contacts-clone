@@ -14,8 +14,6 @@ export default function ContactsViewComponent() {
   const id = params.id;
   const contact = database[id];
 
-  console.log(contact);
-
   return (
     <div
       style={{ backgroundColor: '#f2f2f7', width: '414px', height: '896px' }}

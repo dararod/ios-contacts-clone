@@ -18,7 +18,7 @@ export default function Contacts() {
 
   return (
     <div>
-      <Nav />
+      <Nav/>
       <ContactsList contacts={contacts} />
     </div>
   )

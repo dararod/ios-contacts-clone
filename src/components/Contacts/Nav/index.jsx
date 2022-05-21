@@ -1,10 +1,31 @@
 import React from 'react'
 import { FiPlus, FiSearch } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
+
+import database from '../../../static/dumbdata_with_ids.json'
 
 import './Nav.css'
 
 export default function Nav() {
+  const contact = database
+  const [contacts, setContacts] = useState(contact)
+  const [search, setSearch] = useState("");
+
+  const handleChange = e => {
+    setSearch(e.target.value)
+    console.log("Busqueda " + e.target.value)
+    filter(e.target.value)
+  }
+
+  const filter = (searchResult)=>{
+    var result = contacts.filter((elemento) => {
+      if((elemento.namefirst.toString().toLowerCase().includes(searchResult.toLowerCase()))){
+        return elemento;
+      }
+    });
+    setContacts(result);
+  }
   return (
     <header id="contacts-nav">
       <nav id="contacts-nav-buttons">
@@ -16,7 +37,7 @@ export default function Nav() {
           </button>
         </Link>
       </nav>
-      <input id="contacts-nav-search" type="Search" placeholder="Search" />
+      <input id="contacts-nav-search" type="Search" placeholder="Search" onChange={handleChange} value={search}/>
       <button id="contacts-nav-search-svg">
         <FiSearch color="#848488" size={'1.4rem'} />
       </button>
