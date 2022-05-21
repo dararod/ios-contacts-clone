@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 15rem;
+  padding-bottom: 2rem;
   padding-top: 0.5rem;
   position: sticky;
   background-color: #f2f2f7;
@@ -82,4 +82,44 @@
 #plus-button {
   position: relative;
   right: 1.2rem;
+}
+
+.avatar {
+  background-image: linear-gradient(#a5abb8, #858a94);
+  border-radius: 5rem;
+  height: 10rem;
+  width: 10rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+#avatar2 {
+  background-color: transparent;
+  border-radius: 4rem;
+  height: 8.3rem;
+  overflow: hidden;
+  width: 8.3rem;
+}
+
+#avatar1 {
+  background-color: #fff;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  height: 3.9rem;
+  width: 3.5rem;
+  position: relative;
+  left: 2.4rem;
+}
+
+#avatar-body {
+  background-color: #fff;
+  height: 10rem;
+  width: 9rem;
+  border-radius: 5rem;
+  position: relative;
+  right: .5rem;
 }
