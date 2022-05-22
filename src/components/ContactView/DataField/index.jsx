@@ -2,7 +2,7 @@ import React from 'react'
 
 import './DataField.css'
 
-export default function DataField( { contact } ) {
+export default function DataField({ contact }) {
   return (
     <>
       <div className="data-field">

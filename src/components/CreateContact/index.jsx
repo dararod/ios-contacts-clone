@@ -16,10 +16,10 @@ export default function CreateContact() {
         <h3>New Contact</h3>
         <button className="done-button">Done</button>
       </nav>
-      <div className='avatar'>
-        <div id='avatar2'>
-        <div id='avatar1'></div>
-        <div id='avatar-body'></div>
+      <div className="avatar">
+        <div id="avatar2">
+          <div id="avatar1"></div>
+          <div id="avatar-body"></div>
         </div>
       </div>
       <div className="contact-input">
@@ -28,14 +28,14 @@ export default function CreateContact() {
         <input placeholder="Company"></input>
       </div>
       <div className="number-input">
-        <button className='create-contact-add-phone'></button>
-      <FiPlus id='plus-button' color="#fff" size={"1.1rem"}/>
-      <button className='create-contact-text-button'>add phone</button>
+        <button className="create-contact-add-phone"></button>
+        <FiPlus id="plus-button" color="#fff" size={'1.1rem'} />
+        <button className="create-contact-text-button">add phone</button>
       </div>
       <div className="number-input">
-        <button className='create-contact-add-phone'></button>
-      <FiPlus id='plus-button' color="#fff" size={"1.1rem"}/>
-      <button className='create-contact-text-button'>add email</button>
+        <button className="create-contact-add-phone"></button>
+        <FiPlus id="plus-button" color="#fff" size={'1.1rem'} />
+        <button className="create-contact-text-button">add email</button>
       </div>
     </div>
   )

@@ -6,7 +6,7 @@ import ContactsList from '../components/Contacts/ContactsList'
 import database from '../static/dumbdata_with_ids.json'
 
 export default function Contacts() {
-  const [contacts] = useState(
+  const [contacts, setContacts] = useState(
     database.sort((a, b) => {
       if (a.namelast.toUpperCase() > b.namelast.toUpperCase()) {
         return 1
@@ -15,10 +15,23 @@ export default function Contacts() {
       return -1
     }),
   )
+  const filter = (term) => {
+    const termNormalized = term.toLowerCase()
+    const result = database.filter((contact) => {
+      const nameFirstNormalized = contact.namefirst.toLowerCase()
+
+      if (nameFirstNormalized.includes(termNormalized)) {
+        return contact
+      }
+
+      return null
+    })
+    setContacts(result)
+  }
 
   return (
     <div>
-      <Nav/>
+      <Nav filter={filter} />
       <ContactsList contacts={contacts} />
     </div>
   )

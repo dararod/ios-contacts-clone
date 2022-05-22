@@ -10,9 +10,9 @@ import DataField from './DataField'
 import './ContactView.css'
 
 export default function ContactsViewComponent() {
-  const params = useParams();
-  const id = params.id;
-  const contact = database[id];
+  const params = useParams()
+  const id = params.id
+  const contact = database[id]
 
   return (
     <div
@@ -27,9 +27,9 @@ export default function ContactsViewComponent() {
         </Link>
         <button id="contact-button-edit">Edit</button>
       </nav>
-      <ContactAvatar contact={contact}/>
+      <ContactAvatar contact={contact} />
       <ContactButton />
-      <DataField contact={contact}/>
+      <DataField contact={contact} />
     </div>
   )
 }
