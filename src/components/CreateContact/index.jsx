@@ -18,11 +18,12 @@ export default function CreateContact() {
       </nav>
       <div id='avatar-box'>
       <div className="avatar">
-        <div id="avatar2">
-          <div id="avatar1"></div>
+        <div id="avatar-border">
+          <div id="avatar-head"></div>
           <div id="avatar-body"></div>
         </div>
       </div>
+      <button id='create-contact-add-photo'>Add Photo</button>
       </div>
       <div className="contact-input">
         <input placeholder="First Name"></input>
