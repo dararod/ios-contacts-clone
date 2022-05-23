@@ -67,6 +67,9 @@
   color: #007aff;
   cursor: pointer;
   font-size: 1.1rem;
+  overflow: hidden;
   padding: 0;
-  width: 7.6rem;
+  text-overflow: ellipsis;
+  width: 350px;
+  white-space: nowrap;
 }
