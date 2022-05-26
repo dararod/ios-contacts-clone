@@ -11,7 +11,7 @@
   background-color: #ffffff;
   border: none;
   border-radius: 0.7rem;
-  color: #007aff;
+  color: #218afd;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -19,4 +19,8 @@
   height: 3.5rem;
   justify-content: center;
   width: 7.8rem;
+}
+
+.contact-view-button button dt {
+  margin-top: 5px;
 }

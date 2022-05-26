@@ -8,15 +8,16 @@ export default function ContactButton() {
   return (
     <div className="contact-view-button">
       <button>
-        <BsFillChatFill size={'1.4rem'} /> message
+        <BsFillChatFill size={'1.4rem'} />
+         <dt>message</dt>
       </button>
       <button>
         <BsFillTelephoneFill size={'1.4rem'} />
-        call
+        <dt>call</dt>
       </button>
       <button>
         <IoIosMail size={'1.4rem'} />
-        mail
+       <dt>mail</dt>
       </button>
     </div>
   )
