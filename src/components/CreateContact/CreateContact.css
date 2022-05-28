@@ -26,40 +26,6 @@
   padding-right: 1rem;
 }
 
-.contact-input {
-  background-color: #fff;
-  border-bottom: 1px solid #e8e8e9;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3rem;
-}
-
-.contact-input input {
-  border: none;
-  border-top: 1px solid #e8e8e9;
-  font-size: 1rem;
-  height: 2.7rem;
-  margin-left: 1rem;
-  outline: none;
-  padding-left: 1rem;
-}
-
-.number-input {
-  align-items: center;
-  background-color: #fff;
-  border-top: 1px solid #e8e8e9;
-  border-bottom: 1px solid #e8e8e9;
-  box-sizing: border-box;
-  display: flex;
-  height: 3rem;
-  margin-bottom: 1rem;
-  padding-left: 2rem;
-}
-
-.number-input dd {
-  margin: 0;
-}
-
 .create-contact-text-button {
   border: none;
   background-color: transparent;
