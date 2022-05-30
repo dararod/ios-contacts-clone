@@ -19,7 +19,7 @@ export default function Contacts() {
     const termNormalized = term.toLowerCase()
     const result = database.filter((contact) => {
       const nameFirstNormalized = contact.namefirst.toLowerCase()
-
+      const nameLastNormalized = contact.namelast.toLowerCase()
       if (nameFirstNormalized.includes(termNormalized)) {
         return contact
       }
