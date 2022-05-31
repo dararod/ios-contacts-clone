@@ -20,10 +20,10 @@ export default function Contacts() {
     const result = database.filter((contact) => {
       const nameFirstNormalized = contact.namefirst.toLowerCase()
       const nameLastNormalized = contact.namelast.toLowerCase()
-      if (nameFirstNormalized.includes(termNormalized)) {
+      if (nameFirstNormalized.includes(termNormalized))
+       || nameLastNormalized.includes(termNormalized) {
         return contact
       }
-
       return null
     })
     setContacts(result)
