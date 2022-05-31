@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "iOS contacts clone server",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "knex": "knex --knexfile ./knexfile.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dararod/ios-contacts-clone.git"
+  },
+  "author": "David Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dararod/ios-contacts-clone/issues"
+  },
+  "homepage": "https://github.com/dararod/ios-contacts-clone#readme",
+  "dependencies": {
+    "fastify": "^3.29.0",
+    "fastify-plugin": "^3.0.1",
+    "knex": "^2.1.0",
+    "knex-stringcase": "^1.4.6",
+    "sqlite3": "^5.0.8"
+  }
+}
