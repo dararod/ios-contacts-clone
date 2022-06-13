@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/dararod/ios-contacts-clone#readme",
   "dependencies": {
-    "fastify": "^3.29.0",
+    "@fastify/cors": "^8.0.0",
+    "fastify": "^4.0.2",
     "fastify-plugin": "^3.0.1",
     "knex": "^2.1.0",
     "knex-stringcase": "^1.4.6",

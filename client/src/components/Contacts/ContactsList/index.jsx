@@ -9,7 +9,7 @@ export default function ContactsList({ contacts }) {
       {contacts.map((contact) => (
         <li className="contacts-list-item" key={contact.id}>
           <Link to={`/${contact.id}`}>
-            {contact.namefirst} <b>{contact.namelast}</b>
+            {contact.firstName} <b>{contact.lastName}</b>
           </Link>
         </li>
       ))}

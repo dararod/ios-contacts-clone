@@ -1,17 +1,22 @@
 import fastify from 'fastify';
 
+import fastifyCors from '@fastify/cors';
+
 import knexPlugin from './plugins/knex.js';
 
 const server = fastify({ logger: true });
 
+
+server.register(fastifyCors);
 server.register(knexPlugin);
 
-server.get('/', (request, reply) => {
+server.get('/', async (request, reply) => {
   // Returns all contacts from the database
   // SQL: SELECT * FROM contacts
-  return reply.status(500).send({
-    message: 'Not implemented',
-  });
+  const results = await server.knex('contacts');
+  return reply.status(200).send(
+    results
+  );
 });
 
 server.get('/:id', async (request, reply) => {
